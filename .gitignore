@@ -1,0 +1,5 @@
+# Ignore pipfile.lock
+Pipfile.lock
+
+# Ignore test directory
+test/
