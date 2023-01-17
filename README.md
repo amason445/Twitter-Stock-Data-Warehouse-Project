@@ -1,7 +1,7 @@
 # Twitter-Stock-Data-Warehouse
 
 ## Project Goals
-This project aims to build a simple data warehouse in SQLite for a sample of tweets and stock data sourced from kaggle. The warehouse will aggregate twittercounts and stock market data at a daily grain.
+This project aims to build a simple data warehouse in SQLite for a sample of tweets and stock data sourced from kaggle. The data warehouse will aggregate monthly twitter mentions and volume weighted average price
 
 ## Data Source
 - Stock Tweets for Sentiment Analysis and Prediction - HANNA YUKHYMENKO

@@ -11,6 +11,12 @@ stock_path = os.path.join(os.path.expanduser('~'), 'Twitter-Stock-Data-Warehouse
 tweet_data = pd.read_csv(tweet_path)
 stock_data = pd.read_csv(stock_path)
 
-tweet_data.info()
+#convert tweet date columns into datetime format
+tweet_data['Date'] = tweet_data['Date'].str.split('+').str[0]
+tweet_data['Date'] = pd.to_datetime(tweet_data['Date'], format='%Y-%m-%d %H:%M:%S').dt.date
 
+#convert stock data columns into datetime format
+stock_data['Date'] = pd.to_datetime(stock_data['Date'], format = '%Y-%m-%d').dt.date
+
+print(stock_data.head(5))
 
