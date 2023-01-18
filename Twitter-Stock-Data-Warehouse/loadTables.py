@@ -5,6 +5,6 @@ import pandas as pd
 def loadTables(output_path, factStockTweets, dimCompany, dimDate):
     con = sqlite3.connect(output_path)
     factStockTweets.to_sql('factStockTweets', con, if_exists = 'replace')
-    dimCompany.to_sql('factStockTweets', con, if_exists = 'replace')
-    dimDate.to_sql('factStockTweets', con, if_exists = 'replace')
+    dimCompany.to_sql('dimCompany', con, if_exists = 'replace')
+    dimDate.to_sql('dimDate', con, if_exists = 'replace')
     con.close()

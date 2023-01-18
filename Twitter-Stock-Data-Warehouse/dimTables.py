@@ -9,7 +9,7 @@ def dimCompany(df, df2):
 
 #create date dim table
 def dimDate(df):
-    df = df['Date'].to_frame()
+    df = df['Date'].to_frame().drop_duplicates()
     df['Day'] = df['Date'].dt.day
     df['Week'] = df['Date'].dt.isocalendar().week
     df['Month'] = df['Date'].dt.month
