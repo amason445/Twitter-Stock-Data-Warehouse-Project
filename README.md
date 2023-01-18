@@ -6,3 +6,6 @@ This project aims to build a simple data warehouse in SQLite for a sample of twe
 ## Data Source
 - Stock Tweets for Sentiment Analysis and Prediction - HANNA YUKHYMENKO
 - https://www.kaggle.com/datasets/equinxx/stock-tweets-for-sentiment-analysis-and-prediction?select=stock_yfinance_data.csv
+
+## Key Calculations
+- Volume Weighted Average Price (VWAP): https://education.howthemarketworks.com/volume-weighted-average-price/
