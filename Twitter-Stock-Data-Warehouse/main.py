@@ -27,6 +27,7 @@ tweet_count = count_tweets(tweet_data)
 stock_metrics = stock_frame(stock_data)
 
 #merge twitter data and stock metrics frame
+fact_table = fact_table(stock_metrics, tweet_count)
 
-stock_metrics.info()
+fact_table.info()
 
