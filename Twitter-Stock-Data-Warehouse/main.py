@@ -2,9 +2,9 @@ import os
 import sqlite3
 import pandas as pd
 import precleaning as pre
-import factStockTweets as fact
-import dimTables as dim
-import loadTables as load
+import fact_table as fact
+import dim_tables as dim
+import load_tables as load
 
 # This file extracts twitter and stock data and loads into a SQLite data warehouse
 
