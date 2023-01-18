@@ -9,9 +9,9 @@ import load_tables as load
 # This file extracts twitter and stock data and loads into a SQLite data warehouse
 
 # Define file paths to source data
-twitter_path = os.path.join(os.path.expanduser('~'), 'Twitter-Stock-Data-Warehouse', 'SourceData', 'stock_tweets.csv')
-stock_path = os.path.join(os.path.expanduser('~'), 'Twitter-Stock-Data-Warehouse', 'SourceData', 'stock_yfinance_data.csv')
-output_path = os.path.join(os.path.expanduser('~'), 'Twitter-Stock-Data-Warehouse', 'ResultsDW.sqlite')
+twitter_path = os.path.join(os.path.expanduser('~'), 'twitter_stock_data_warehouse', 'SourceData', 'stock_tweets.csv')
+stock_path = os.path.join(os.path.expanduser('~'), 'twitter_stock_data_warehouse', 'SourceData', 'stock_yfinance_data.csv')
+output_path = os.path.join(os.path.expanduser('~'), 'twitter_stock_data_warehouse', 'ResultsDW.sqlite')
 
 #create source dataframes
 twitter_data = pre.twitter_raw(twitter_path)
