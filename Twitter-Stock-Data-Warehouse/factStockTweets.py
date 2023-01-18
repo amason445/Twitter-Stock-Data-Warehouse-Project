@@ -20,7 +20,7 @@ def fact_table(df1, df2):
     main_df = df1.merge(right = df2, how = 'left', on = ['Date', 'Stock Name'])
     main_df['tweet_count'] = main_df['tweet_count'].fillna(0)
     main_df = main_df.rename(columns={"Stock Name": "CompanyKey"})
-    main_df['RecordKey'] = str(main_df['Date']) + main_df['CompanyKey']
+    main_df['RecordKey'] = main_df['Date'].astype(str) + '-' + main_df['CompanyKey']
     primary_key = main_df.pop('RecordKey')
     main_df.insert(0, primary_key.name, primary_key)
     return main_df
