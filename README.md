@@ -11,8 +11,9 @@ This project aims to build a simple data warehouse in SQLite for a sample of twe
 - Volume Weighted Average Price (VWAP): https://education.howthemarketworks.com/volume-weighted-average-price/
 
 ## Conclusion
-Successfully created data warehouse file and met requirements. Ideas for the future:
+Successfully created data warehouse file and met requirements. Takeaways and ideas:
 - Add other stock metrics to fact table such as return data or volatility measures
 - Adapt into a general SQL file for other databases
 - Clean dim tables and add new external attributes like metadata or more company information
+- Conform load tables to schema ERD
 
