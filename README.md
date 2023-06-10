@@ -11,7 +11,7 @@ This project aims to build a simple data warehouse in SQLite for a sample of twe
 * Volume Weighted Average Price (VWAP): 
 - $VWAP = \frac{\sum{Volume\ \cdot\ Price}}{\sum{Volume}}$
 * Price: 
-- $Price = \frac{(High\ +\ Low\+\ Close)}{3}
+- $Price = \frac{(High\ +\ Low\+\ Close)}{3}$
 - https://education.howthemarketworks.com/volume-weighted-average-price/
 
 ## Conclusion
