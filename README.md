@@ -8,11 +8,11 @@ This project aims to build a simple data warehouse in SQLite for a sample of twe
 - https://www.kaggle.com/datasets/equinxx/stock-tweets-for-sentiment-analysis-and-prediction?select=stock_yfinance_data.csv
 
 ## Key Calculations
-* Volume Weighted Average Price (VWAP): 
-- $VWAP = \frac{\sum{Volume\ \cdot\ Price}}{\sum{Volume}}$
-* Price: 
-- $Price = \frac{(High\ +\ Low\+\ Close)}{3}$
-- https://education.howthemarketworks.com/volume-weighted-average-price/
+* **Volume Weighted Average Price (VWAP):** 
+  - $VWAP = \frac{\sum{Volume\ \cdot\ Price}}{\sum{Volume}}$
+* **Price:** 
+  - $Price = \frac{(High\ +\ Low\+\ Close)}{3}$
+* https://education.howthemarketworks.com/volume-weighted-average-price/
 
 ## Conclusion
 Successfully created data warehouse file and met requirements. Takeaways and ideas:
